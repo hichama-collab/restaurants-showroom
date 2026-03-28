@@ -1,0 +1,85 @@
+template;asset_path;filename;category;action;variant;brief_fr;used_in_files;used_in_count
+Lounge-1.0.0;Lounge-1.0.0/images/about-pic-primary.jpg;about-pic-primary.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;Lounge-1.0.0/index.html;2
+Lounge-1.0.0;Lounge-1.0.0/images/about-pic-primary@2x.jpg;about-pic-primary@2x.jpg;a-propos;a_regenerer;retina_2x;Version retina x2 du meme visuel. Garder le meme cadrage que la version de base, en plus haute resolution.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-01.jpg;user-01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-02.jpg;user-02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-03.jpg;user-03.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-06.jpg;user-06.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/intro-pic-primary.jpg;intro-pic-primary.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;Lounge-1.0.0/index.html;2
+Lounge-1.0.0;Lounge-1.0.0/images/intro-pic-primary@2x.jpg;intro-pic-primary@2x.jpg;a-propos;a_regenerer;retina_2x;Version retina x2 du meme visuel. Garder le meme cadrage que la version de base, en plus haute resolution.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/intro-pic-secondary.jpg;intro-pic-secondary.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;Lounge-1.0.0/index.html;2
+Lounge-1.0.0;Lounge-1.0.0/images/intro-pic-secondary@2x.jpg;intro-pic-secondary@2x.jpg;a-propos;a_regenerer;retina_2x;Version retina x2 du meme visuel. Garder le meme cadrage que la version de base, en plus haute resolution.;Lounge-1.0.0/index.html;1
+burgerking-main;burgerking-main/img/about.jpg;about.jpg;a-propos;a_regenerer;base;Photo section a propos montrant burger ou street food.;burgerking-main/about.html | burgerking-main/index.html;2
+burgerking-main;burgerking-main/img/testimonial-1.jpg;testimonial-1.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-2.jpg;testimonial-2.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-3.jpg;testimonial-3.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-4.jpg;testimonial-4.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/user.jpg;user.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/single.html;4
+delicious-master;delicious-master/img/bg-img/about.png;about.png;a-propos-detoure;a_regenerer;base;Visuel PNG detoure pour section a propos montrant interieur, equipe ou scene de marque.;delicious-master/about.html;1
+feane-1.0.0;feane-1.0.0/images/about-img.png;about-img.png;a-propos-detoure;a_regenerer;base;Visuel PNG detoure pour section a propos montrant interieur, equipe ou scene de marque.;feane-1.0.0/about.html | feane-1.0.0/index.html;2
+feane-1.0.0;feane-1.0.0/images/client1.jpg;client1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feane-1.0.0/index.html;1
+feane-1.0.0;feane-1.0.0/images/client2.jpg;client2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feane-1.0.0/index.html;1
+feliciano-master;feliciano-master/images/about-1.jpg;about-1.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/about.jpg;about.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-1.jpg;chef-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-2.jpg;chef-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-3.jpg;chef-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-4.jpg;chef-4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/person_1.jpg;person_1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/blog-single.html | feliciano-master/index.html;9
+feliciano-master;feliciano-master/images/person_2.jpg;person_2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/person_3.jpg;person_3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;4
+feliciano-master;feliciano-master/images/person_4.jpg;person_4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+gourmet-master;gourmet-master/img/about_1.jpg;about_1.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;gourmet-master/about.html | gourmet-master/index.html;2
+gourmet-master;gourmet-master/img/person_1.jpg;person_1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;7
+gourmet-master;gourmet-master/img/person_2.jpg;person_2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;7
+gourmet-master;gourmet-master/img/person_3.jpg;person_3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;5
+grandcoffee-master;grandcoffee-master/images/about-img.png;about-img.png;a-propos-detoure;a_regenerer;base;Visuel PNG detoure pour section a propos montrant interieur, equipe ou scene de marque.;grandcoffee-master/about.html | grandcoffee-master/index.html;2
+pato-master;pato-master/images/avatar-01.jpg;avatar-01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/index.html;1
+pato-master;pato-master/images/avatar-02.jpg;avatar-02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html;1
+pato-master;pato-master/images/avatar-03.jpg;avatar-03.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html;1
+pato-master;pato-master/images/avatar-04.jpg;avatar-04.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/index.html;1
+pato-master;pato-master/images/avatar-05.jpg;avatar-05.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html | pato-master/index.html;2
+pato-master;pato-master/images/bg-event-01.jpg;bg-event-01.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/bg-event-02.jpg;bg-event-02.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/bg-event-04.jpg;bg-event-04.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/bg-intro-01.jpg;bg-intro-01.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/index.html;1
+pato-master;pato-master/images/booking-01.jpg;booking-01.jpg;reservation;a_regenerer;base;Photo de reservation montrant table dressee ou ambiance de salle.;pato-master/index.html;1
+pato-master;pato-master/images/event-01.jpg;event-01.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/event-02.jpg;event-02.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/event-06.jpg;event-06.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;pato-master/index.html;1
+pato-master;pato-master/images/intro-01.jpg;intro-01.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/index.html;1
+pato-master;pato-master/images/intro-02.jpg;intro-02.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/index.html;1
+pato-master;pato-master/images/intro-04.jpg;intro-04.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/index.html;1
+pato-master;pato-master/images/our-story-01.jpg;our-story-01.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/about.html | pato-master/index.html;2
+pato-master;pato-master/images/our-story-02.jpg;our-story-02.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;pato-master/about.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/12.png;12.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/2.png;2.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/3.png;3.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/7.png;7.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-1.png;chef-1.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-2.png;chef-2.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-3.png;chef-3.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-4.png;chef-4.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/restaurant-about-us.png;restaurant-about-us.png;a-propos-detoure;a_regenerer;base;Visuel PNG detoure pour section a propos montrant interieur, equipe ou scene de marque.;restaurant-1.0.0/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/book-bg.jpg;book-bg.jpg;reservation;a_regenerer;base;Photo de reservation montrant table dressee ou ambiance de salle.;templatemo_507_victory/css/templatemo-style.css;1
+templatemo_507_victory;templatemo_507_victory/img/book_left_image.jpg;book_left_image.jpg;reservation;a_regenerer;base;Photo de reservation montrant table dressee ou ambiance de salle.;templatemo_507_victory/index.html | templatemo_507_victory/menu.html;2
+templatemo_507_victory;templatemo_507_victory/img/cook_01.jpg;cook_01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_02.jpg;cook_02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_breakfast.png;cook_breakfast.png;portrait;a_regenerer;base;Portrait photo de petit-dejeuner ou brunch.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_dessert.png;cook_dessert.png;portrait;a_regenerer;base;Portrait photo de dessert ou patisserie.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_dinner.png;cook_dinner.png;portrait;a_regenerer;base;Portrait photo de plat du soir ou assiette de restaurant.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_lunch.png;cook_lunch.png;portrait;a_regenerer;base;Portrait photo de plat du midi ou assiette de restaurant.;templatemo_507_victory/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/about-2.jpg;about-2.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/about.jpg;about.jpg;a-propos;a_regenerer;base;Photo section a propos montrant interieur, equipe ou scene de marque.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-1.jpg;chefs-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-2.jpg;chefs-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-3.jpg;chefs-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/events-1.jpg;events-1.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/events-2.jpg;events-2.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/events-3.jpg;events-3.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/events-4.jpg;events-4.jpg;evenement;a_regenerer;base;Photo evenementielle montrant scene de service ou evenement.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/reservation.jpg;reservation.jpg;reservation;a_regenerer;base;Photo de reservation montrant table dressee ou ambiance de salle.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-1.jpg;testimonials-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-2.jpg;testimonials-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-3.jpg;testimonials-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-4.jpg;testimonials-4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1

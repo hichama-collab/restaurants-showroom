@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+generated-humains/*
+!generated-humains/.gitkeep
+
+catalog/**/.sass-cache/
+catalog/**/.vscode/
+catalog/**/.github/

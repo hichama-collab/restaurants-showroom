@@ -1,0 +1,53 @@
+template;asset_path;filename;category;action;variant;brief_fr;used_in_files;used_in_count
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-01.jpg;user-01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-02.jpg;user-02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-03.jpg;user-03.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+Lounge-1.0.0;Lounge-1.0.0/images/avatars/user-06.jpg;user-06.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;Lounge-1.0.0/index.html;1
+burgerking-main;burgerking-main/img/team-1.jpg;team-1.jpg;plat;a_regenerer;base;Photo culinaire montrant burger ou street food.;burgerking-main/index.html | burgerking-main/team.html;3
+burgerking-main;burgerking-main/img/team-2.jpg;team-2.jpg;plat;a_regenerer;base;Photo culinaire montrant burger ou street food.;burgerking-main/index.html | burgerking-main/team.html;3
+burgerking-main;burgerking-main/img/team-3.jpg;team-3.jpg;plat;a_regenerer;base;Photo culinaire montrant burger ou street food.;burgerking-main/index.html | burgerking-main/team.html;3
+burgerking-main;burgerking-main/img/team-4.jpg;team-4.jpg;plat;a_regenerer;base;Photo culinaire montrant burger ou street food.;burgerking-main/index.html | burgerking-main/team.html;3
+burgerking-main;burgerking-main/img/testimonial-1.jpg;testimonial-1.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-2.jpg;testimonial-2.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-3.jpg;testimonial-3.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/testimonial-4.jpg;testimonial-4.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/index.html;1
+burgerking-main;burgerking-main/img/user.jpg;user.jpg;portrait;a_regenerer;base;Portrait photo de burger ou street food.;burgerking-main/single.html;4
+feane-1.0.0;feane-1.0.0/images/client1.jpg;client1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feane-1.0.0/index.html;1
+feane-1.0.0;feane-1.0.0/images/client2.jpg;client2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feane-1.0.0/index.html;1
+feliciano-master;feliciano-master/images/chef-1.jpg;chef-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-2.jpg;chef-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-3.jpg;chef-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/chef-4.jpg;chef-4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/person_1.jpg;person_1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/blog-single.html | feliciano-master/index.html;9
+feliciano-master;feliciano-master/images/person_2.jpg;person_2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+feliciano-master;feliciano-master/images/person_3.jpg;person_3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;4
+feliciano-master;feliciano-master/images/person_4.jpg;person_4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;feliciano-master/about.html | feliciano-master/index.html;2
+gourmet-master;gourmet-master/img/person_1.jpg;person_1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;7
+gourmet-master;gourmet-master/img/person_2.jpg;person_2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;7
+gourmet-master;gourmet-master/img/person_3.jpg;person_3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;gourmet-master/about.html | gourmet-master/contact.html | gourmet-master/index.html | gourmet-master/single.html;5
+pato-master;pato-master/images/avatar-01.jpg;avatar-01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/index.html;1
+pato-master;pato-master/images/avatar-02.jpg;avatar-02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html;1
+pato-master;pato-master/images/avatar-03.jpg;avatar-03.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html;1
+pato-master;pato-master/images/avatar-04.jpg;avatar-04.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/index.html;1
+pato-master;pato-master/images/avatar-05.jpg;avatar-05.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;pato-master/about.html | pato-master/index.html;2
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/12.png;12.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/2.png;2.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/3.png;3.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/avatars/7.png;7.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-1.png;chef-1.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-2.png;chef-2.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-3.png;chef-3.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+restaurant-1.0.0;restaurant-1.0.0/assets/img/chef-4.png;chef-4.png;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;restaurant-1.0.0/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_01.jpg;cook_01.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_02.jpg;cook_02.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_breakfast.png;cook_breakfast.png;portrait;a_regenerer;base;Portrait photo de petit-dejeuner ou brunch.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_dessert.png;cook_dessert.png;portrait;a_regenerer;base;Portrait photo de dessert ou patisserie.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_dinner.png;cook_dinner.png;portrait;a_regenerer;base;Portrait photo de plat du soir ou assiette de restaurant.;templatemo_507_victory/index.html;1
+templatemo_507_victory;templatemo_507_victory/img/cook_lunch.png;cook_lunch.png;portrait;a_regenerer;base;Portrait photo de plat du midi ou assiette de restaurant.;templatemo_507_victory/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-1.jpg;chefs-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-2.jpg;chefs-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/chefs/chefs-3.jpg;chefs-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-1.jpg;testimonials-1.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-2.jpg;testimonials-2.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-3.jpg;testimonials-3.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1
+yummy-red-1.0.0;yummy-red-1.0.0/assets/img/testimonials/testimonials-4.jpg;testimonials-4.jpg;portrait;a_regenerer;base;Portrait photo de portrait equipe, chef ou client.;yummy-red-1.0.0/index.html;1

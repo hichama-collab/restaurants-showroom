@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ma Vitrine Online | Showroom Templates Restaurants</title>
+    <meta name="description" content="Showroom de templates restaurants, bars, cafes et brunchs neutralises sous la marque Ma Vitrine Online.">
+    <link rel="icon" href="./shared/logo-ma-vitrine-online.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #1e2732;
+        --ink-soft: rgba(30, 39, 50, 0.72);
+        --accent: #45c7d2;
+        --accent-deep: #209aa6;
+        --surface: rgba(255, 255, 255, 0.92);
+        --line: rgba(30, 39, 50, 0.1);
+        --shadow: 0 28px 80px rgba(17, 25, 35, 0.16);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Manrope", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(69, 199, 210, 0.16), transparent 28%),
+          radial-gradient(circle at bottom right, rgba(38, 120, 128, 0.12), transparent 22%),
+          linear-gradient(180deg, #f6fbfc 0%, #eef3f4 100%);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1220px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero {
+        padding: 40px 0 24px;
+      }
+
+      .hero-card {
+        padding: 26px;
+        border-radius: 36px;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(240, 251, 252, 0.92));
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow);
+      }
+
+      .hero-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .brand img {
+        width: 190px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(69, 199, 210, 0.12);
+        color: var(--accent-deep);
+        font-size: 0.82rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 24px 0 12px;
+        font-family: "Fraunces", serif;
+        font-size: clamp(2.4rem, 5vw, 4.8rem);
+        line-height: 0.95;
+      }
+
+      .hero-copy {
+        max-width: 72ch;
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 1.06rem;
+        line-height: 1.8;
+      }
+
+      .hero-points {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 26px;
+      }
+
+      .hero-point {
+        padding: 18px;
+        border-radius: 22px;
+        background: #fff;
+        border: 1px solid var(--line);
+      }
+
+      .hero-point strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+
+      .hero-point p {
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 0.95rem;
+        line-height: 1.65;
+      }
+
+      .section-head {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 18px;
+        margin: 34px 0 18px;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        font-family: "Fraunces", serif;
+        font-size: clamp(1.8rem, 3vw, 2.8rem);
+      }
+
+      .section-head p {
+        max-width: 48ch;
+        margin: 0;
+        color: var(--ink-soft);
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        padding-bottom: 40px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        min-height: 100%;
+        padding: 22px;
+        border-radius: 28px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        box-shadow: 0 18px 42px rgba(18, 27, 38, 0.08);
+      }
+
+      .card-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        align-items: flex-start;
+      }
+
+      .card-style {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(69, 199, 210, 0.12);
+        color: var(--accent-deep);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      .card-index {
+        color: rgba(30, 39, 50, 0.34);
+        font-size: 0.84rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .card h3 {
+        margin: 0;
+        font-size: 1.28rem;
+        line-height: 1.2;
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--ink-soft);
+        line-height: 1.72;
+      }
+
+      .card-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .card-tags span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 32px;
+        padding: 0 12px;
+        border-radius: 999px;
+        background: rgba(30, 39, 50, 0.06);
+        color: var(--ink);
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .card-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 16px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 800;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, var(--accent), #80e1e9);
+      }
+
+      .btn-secondary {
+        border: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .foot {
+        padding: 0 0 40px;
+      }
+
+      .foot-card {
+        padding: 18px 22px;
+        border-radius: 24px;
+        background: rgba(30, 39, 50, 0.92);
+        color: rgba(255, 255, 255, 0.84);
+      }
+
+      .foot-card strong {
+        color: #fff;
+      }
+
+      @media (max-width: 1024px) {
+        .hero-points,
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 720px) {
+        .hero,
+        .foot {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .hero-card {
+          padding: 22px;
+          border-radius: 28px;
+        }
+
+        .hero-points,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .section-head {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .card-actions {
+          flex-direction: column;
+        }
+
+        .btn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-card">
+          <div class="hero-top">
+            <div class="brand">
+              <img src="./shared/logo-ma-vitrine-online.svg" alt="Ma Vitrine Online">
+            </div>
+            <span class="hero-badge">Showroom Templates Restaurants</span>
+          </div>
+          <h1>Des styles prets a montrer, rebrands comme si c'etait deja chez nous.</h1>
+          <p class="hero-copy">Chaque demo ci-dessous reprend une base visuelle differente, neutralisee sous la marque <strong>Ma Vitrine Online</strong>. Le but est simple : faire choisir une direction au prospect sans donner l'impression de sortir un template brut recopie d'internet. On vend une intention, une ambiance et une methode de personnalisation.</p>
+          <div class="hero-points">
+            <article class="hero-point">
+              <strong>Pour la vente</strong>
+              <p>Le prospect choisit un style, puis on remplace contenus, photos, couleurs, liens de reservation, livraison et SEO local.</p>
+            </article>
+            <article class="hero-point">
+              <strong>Pour la projection</strong>
+              <p>Chaque version a un ton distinct: premium, rapide, editorial, lounge, coffee shop, brasserie ou landing plus corporate.</p>
+            </article>
+            <article class="hero-point">
+              <strong>Pour la demo</strong>
+              <p>Un bandeau commun “Ma Vitrine Online” est injecte dans chaque template et les liens locaux restent dans la demo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Catalogue des 11 modeles</h2>
+          <p>Les noms ci-dessous sont neutralises pour le showroom. Chaque demo est volontairement renommee en modele numerote.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Atmosphere</span>
+              <span class="card-index">01</span>
+            </div>
+            <h3>Model 1</h3>
+            <p>Une direction editoriale tres imagee pour cafe, brunch, cave a manger ou lieu qui veut installer une ambiance calme et premium.</p>
+            <div class="card-tags"><span>Coffee shop</span><span>Brunch</span><span>Premium</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./Lounge-1.0.0/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./Lounge-1.0.0/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Pop Express</span>
+              <span class="card-index">02</span>
+            </div>
+            <h3>Model 2</h3>
+            <p>Un template tres commercial, ideal pour restauration rapide, burger, tacos, pizza ou concept qui doit aller droit au clic.</p>
+            <div class="card-tags"><span>Street food</span><span>Livraison</span><span>Conversion</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./burgerking-main/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./burgerking-main/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Editorial Food</span>
+              <span class="card-index">03</span>
+            </div>
+            <h3>Model 3</h3>
+            <p>Une base magazine pour raconter une histoire de marque, publier des actualites et installer un univers plus riche qu'une simple carte.</p>
+            <div class="card-tags"><span>Storytelling</span><span>Food concept</span><span>Actus</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./delicious-master/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./delicious-master/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Street Kitchen</span>
+              <span class="card-index">04</span>
+            </div>
+            <h3>Model 4</h3>
+            <p>Une direction moderne et dynamique pour restaurant urbain, fast casual, click and collect ou concept simple a lire sur mobile.</p>
+            <div class="card-tags"><span>Fast casual</span><span>Mobile first</span><span>Commande</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./feane-1.0.0/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./feane-1.0.0/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Signature</span>
+              <span class="card-index">05</span>
+            </div>
+            <h3>Model 5</h3>
+            <p>Un rendu plus haut de gamme avec hero plein ecran, bonne presence visuelle et structure ideale pour un lieu ambitieux.</p>
+            <div class="card-tags"><span>Restaurant chic</span><span>Evenementiel</span><span>Grande image</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./feliciano-master/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./feliciano-master/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Maison</span>
+              <span class="card-index">06</span>
+            </div>
+            <h3>Model 6</h3>
+            <p>Un site tres lisible pour brasserie, cuisine maison ou table familiale qui veut une image simple, rassurante et chaleureuse.</p>
+            <div class="card-tags"><span>Brasserie</span><span>Cuisine maison</span><span>Classique</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./gourmet-master/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./gourmet-master/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Coffee & Brunch</span>
+              <span class="card-index">07</span>
+            </div>
+            <h3>Model 7</h3>
+            <p>Une vitrine tres accessible pour coffee shop, brunch, salon de the ou petite adresse de quartier qui veut etre accueillante.</p>
+            <div class="card-tags"><span>Cafe</span><span>Brunch</span><span>Convivial</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./grandcoffee-master/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./grandcoffee-master/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Night & Chic</span>
+              <span class="card-index">08</span>
+            </div>
+            <h3>Model 8</h3>
+            <p>Une ambiance sombre et selective pour bar a cocktails, speakeasy, restaurant du soir ou lieu qui vend la privatisation.</p>
+            <div class="card-tags"><span>Cocktails</span><span>Soiree</span><span>Privatisation</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./pato-master/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./pato-master/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Premium Landing</span>
+              <span class="card-index">09</span>
+            </div>
+            <h3>Model 9</h3>
+            <p>Une landing page tres complete pour groupe, franchise, grosse brasserie ou projet qui veut montrer un cadre tres professionnel.</p>
+            <div class="card-tags"><span>Corporate</span><span>FAQ</span><span>Multi-sites</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./restaurant-1.0.0/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./restaurant-1.0.0/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Brasserie Classique</span>
+              <span class="card-index">10</span>
+            </div>
+            <h3>Model 10</h3>
+            <p>Une structure simple, rassurante et facile a projeter pour restaurant traditionnel, pizzeria, grill ou offre tres classique.</p>
+            <div class="card-tags"><span>Traditionnel</span><span>Simple</span><span>Efficace</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./templatemo_507_victory/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./templatemo_507_victory/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="card-style">Moderne Lumineux</span>
+              <span class="card-index">11</span>
+            </div>
+            <h3>Model 11</h3>
+            <p>Une base contemporaine et lumineuse pour restaurant familial, traiteur, cantine premium ou concept axe sur la clarté.</p>
+            <div class="card-tags"><span>Moderne</span><span>Lumineux</span><span>Polyvalent</span></div>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="./yummy-red-1.0.0/index.html">Ouvrir la demo</a>
+              <a class="btn btn-secondary" href="./yummy-red-1.0.0/index.html#mvo-summary">Voir le brief</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="foot">
+        <div class="foot-card">
+          <strong>Mode d'emploi :</strong> on montre le catalogue, le prospect choisit une ambiance, puis on lui vend la personnalisation complete du site avec son vrai contenu. Les demos restent volontairement neutres et signees <strong>Ma Vitrine Online</strong>.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
