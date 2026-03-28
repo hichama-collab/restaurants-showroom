@@ -171,6 +171,59 @@
         box-shadow: 0 18px 42px rgba(18, 27, 38, 0.08);
       }
 
+      .card-preview {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border-radius: 22px;
+        aspect-ratio: 16 / 10;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        box-shadow: 0 18px 36px rgba(18, 27, 38, 0.14);
+        background:
+          radial-gradient(circle at top right, rgba(69, 199, 210, 0.18), transparent 32%),
+          linear-gradient(160deg, rgba(10, 18, 26, 0.04), rgba(10, 18, 26, 0.14));
+      }
+
+      .card-preview::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(180deg, rgba(12, 18, 24, 0.02) 0%, rgba(12, 18, 24, 0.22) 100%);
+      }
+
+      .card-preview img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: var(--preview-position, center);
+        transition: transform 220ms ease;
+      }
+
+      .card:hover .card-preview img {
+        transform: scale(1.04);
+      }
+
+      .card-preview-badge {
+        position: absolute;
+        left: 14px;
+        bottom: 14px;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 0 12px;
+        border-radius: 999px;
+        background: rgba(12, 18, 24, 0.72);
+        color: #fff;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        backdrop-filter: blur(12px);
+      }
+
       .card-top {
         display: flex;
         justify-content: space-between;
@@ -341,10 +394,14 @@
       <section>
         <div class="section-head">
           <h2>Catalogue des 11 modeles</h2>
-          <p>Les noms ci-dessous sont neutralises pour le showroom. Chaque demo est volontairement renommee en modele numerote.</p>
+          <p>Les noms ci-dessous sont neutralises pour le showroom. Chaque carte affiche maintenant un apercu direct pour comprendre l'ambiance avant d'ouvrir la demo.</p>
         </div>
         <div class="grid">
           <article class="card">
+            <a class="card-preview" href="./Lounge-1.0.0/index.html" style="--preview-position: center 46%;">
+              <img src="./Lounge-1.0.0/images/gallery/large/l-gallery-03.jpg" alt="Apercu visuel du Model 1">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Atmosphere</span>
               <span class="card-index">01</span>
@@ -359,6 +416,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./burgerking-main/index.html" style="--preview-position: center 42%;">
+              <img src="./burgerking-main/img/carousel-1.jpg" alt="Apercu visuel du Model 2">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Pop Express</span>
               <span class="card-index">02</span>
@@ -373,6 +434,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./delicious-master/index.html" style="--preview-position: center 46%;">
+              <img src="./delicious-master/img/bg-img/bg1.jpg" alt="Apercu visuel du Model 3">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Editorial Food</span>
               <span class="card-index">03</span>
@@ -387,6 +452,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./feane-1.0.0/index.html" style="--preview-position: center 45%;">
+              <img src="./feane-1.0.0/images/hero-bg.jpg" alt="Apercu visuel du Model 4">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Street Kitchen</span>
               <span class="card-index">04</span>
@@ -401,6 +470,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./feliciano-master/index.html" style="--preview-position: center 48%;">
+              <img src="./feliciano-master/images/bg_1.jpg" alt="Apercu visuel du Model 5">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Signature</span>
               <span class="card-index">05</span>
@@ -415,6 +488,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./gourmet-master/index.html" style="--preview-position: center 46%;">
+              <img src="./gourmet-master/img/hero_1.jpg" alt="Apercu visuel du Model 6">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Maison</span>
               <span class="card-index">06</span>
@@ -429,6 +506,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./grandcoffee-master/index.html" style="--preview-position: center 54%;">
+              <img src="./grandcoffee-master/images/banner-bg.png" alt="Apercu visuel du Model 7">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Coffee & Brunch</span>
               <span class="card-index">07</span>
@@ -443,6 +524,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./pato-master/index.html" style="--preview-position: center 43%;">
+              <img src="./pato-master/images/master-slides-01.jpg" alt="Apercu visuel du Model 8">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Night & Chic</span>
               <span class="card-index">08</span>
@@ -457,6 +542,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./restaurant-1.0.0/index.html" style="--preview-position: center 56%;">
+              <img src="./restaurant-1.0.0/assets/img/dishes-hero.png" alt="Apercu visuel du Model 9">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Premium Landing</span>
               <span class="card-index">09</span>
@@ -471,6 +560,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./templatemo_507_victory/index.html" style="--preview-position: center 52%;">
+              <img src="./templatemo_507_victory/img/banner-bg.jpg" alt="Apercu visuel du Model 10">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Brasserie Classique</span>
               <span class="card-index">10</span>
@@ -485,6 +578,10 @@
           </article>
 
           <article class="card">
+            <a class="card-preview" href="./yummy-red-1.0.0/index.html" style="--preview-position: center 58%;">
+              <img src="./yummy-red-1.0.0/assets/img/hero-img.png" alt="Apercu visuel du Model 11">
+              <span class="card-preview-badge">Apercu du style</span>
+            </a>
             <div class="card-top">
               <span class="card-style">Moderne Lumineux</span>
               <span class="card-index">11</span>
